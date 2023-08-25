@@ -1,0 +1,1 @@
+System.register(["./index-legacy-3ec3a081.js","./index-legacy-74de1dda.js"],(function(t,e){"use strict";var a,i;return{setters:[t=>{a=t.m},t=>{i=t.$}],execute:function(){t("u",i("city",{state:()=>({allCities:{},currentCity:{cityName:"广州"}}),actions:{async fetchAllCityData(){const t=await a.get({url:"/city/all"});this.allCities=t.data}}}))}}}));
